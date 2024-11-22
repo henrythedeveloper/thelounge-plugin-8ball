@@ -1,0 +1,29 @@
+{
+  "name": "thelounge-plugin-8ball",
+  "version": "1.0.0",
+  "description": "A plugin for thelounge that adds a Magic 8-Ball command",
+  "main": "index.js",
+  "repository": "https://github.com/henrythedeveloper/thelounge-plugin-8ball.git",
+  "author": "Henry hlsoftdev@proton.me",
+  "license": "MIT",
+  "keywords": [
+    "thelounge",
+    "thelounge-plugin",
+    "8ball",
+    "fun"
+  ],
+  "thelounge": {
+    "name": "Magic 8-Ball",
+    "type": "plugin",
+    "supports": ">=4.3.0"
+  },
+  "scripts": {
+    "format": "prettier -w .",
+    "lint": "eslint --ext \".js,.vue,.ts,.html\" --ignore-path .gitignore --fix ."
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.2"
+  }
+}
